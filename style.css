@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#bloco {
+    display: block;
+    background-color: grey;
+    margin-top: 3px;
+}
+
+.sub-bloco {
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 300px;
+    display: inline-block;
+   
+}
+
+h1{
+    margin: 20px 0px 35px 0px;
+    text-align: center;
+}
+
+h2{
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+p {
+    width: 500px;
+    text-align: justify;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+

@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 * {
     margin: 0px;
     border: 0px;
@@ -16,20 +18,51 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url(/assets/img/background/fumaca.png);
-    padding: 10px;
-
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 0px 0px 30px 10px;
 }
 
-#mgsTitle {
+#divhead {
+    display: flex;
+    align-items: center;
     color: white;
-    font-size: 1.5vw;
+    font-family: 'Roboto Condensed', 'Times New Roman', Times, sans-serif;
+}
+
+#konamiLogo {
+    width: 130px;
+}
+
+
+.text {
+    font-family: 'Roboto Condensed', 'Times New Roman', Times, sans-serif;
+    color: white;
+}
+
+
+#mgsTopText {
+    font-weight: normal;
+    color: white;
+    font-size: 1.2em;
     text-align: center;
     margin: 0px 0px 15px 0px;
 
 }
 
-#logo {
-    width: 15vw;
+#mgsPortal {
+    justify-content: center;
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.containerSliders {
+    display: flex;
+    justify-content: center;
+}
+
+.sliders {
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    max-width: 90vw;
 }

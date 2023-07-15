@@ -4,10 +4,15 @@
     margin: 0px;
     padding: 0px;
 }
-#bloco {
+
+body {
+    background-color: black;
+}
+
+.bloco {
     display: block;
-    background-color: grey;
-    margin-top: 3px;
+    background-color: rgb(128, 128, 128);
+    margin-top: 10px;
 }
 
 .sub-bloco {

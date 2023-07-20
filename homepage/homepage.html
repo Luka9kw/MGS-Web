@@ -2,38 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>METAL GEAR PORTAL SITE</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/assets/img/favicon/mgs.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>METAL GEAR PORTAL SITE</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="/assets/img/favicon/mgs.ico" type="image/x-icon">
 </head>
 
 <body>
-    <header>
+	<header>
 
-        <div id="divhead">
-            <img src="/assets/img/header/konamilogo LowRes.png" alt="Konami Logo" id="konamiLogo">
+		<div id="divhead">
+			<img src="/assets/img/header/konamilogo LowRes.png" alt="Konami Logo" id="konamiLogo">
 
-            <div class="topButtons">
-                <p>Account</p>
-            </div>
-        </div>
-
-
-        <h1 id="mgsTopText" class="text">
-            Sneak back into tactical stealth action!
-        </h1>
-        <img src="/assets/img/header/metal gear portal site.png" alt="Metal Gear Portal Site" id="mgsPortal">
-
-    </header>
+			<div class="topButtons">
+				<p>Account</p>
+			</div>
+		</div>
 
 
-    <div class="containerSliders">
-        <!-- <img src="/assets/img/slider/mgs merchan slider.jpg" alt="Metal Gear Solid Products" class="sliders"> -->
-        <!-- <img src="/assets/img/slider/mgs collection.jpg" alt="Metal Gear Solid Collection Vol. 1" class="sliders"> -->
-        <img src="/assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta" class="sliders">
-    </div>
+		<h1 id="mgs-top-text" class="text">
+			Sneak back into tactical stealth action!
+		</h1>
+		<img src="/assets/img/header/metal gear portal site.png" alt="Metal Gear Portal Site" id="mgsPortal">
+
+	</header>
+
+	<div class="content">
+		<div class="slides">
+
+			<!--Radio Buttons-->
+			<input type="radio" name="slide" id="slide1" checked>
+			<input type="radio" name="slide" id="slide2">
+
+			<!--Slide Images-->
+			
+			<!-- <div class="slide">
+				<img src="/assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
+			</div> -->
+
+			
+			<div class="slide s1">
+				<img src="/assets/img/slider/mgs collection.jpg" alt="Metal Gear Solid Collection Vol. 1" >
+			</div>
+
+			<div class="slide">
+				<img src="/assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta" >
+			</div>
+
+		</div>
+
+		<!-- <div class="auto-btn1"></div>
+		<div class="auto-btn2"></div> -->
+
+
+		<!--Label-->
+		<div class="navigation">
+			<label for="slide1" class="manual-btn"></label>
+			<label for="slide2" class="manual-btn"></label>
+		</div>
+
+	</div>
+	</div>
+	</div>
+	<script src="script.js"></script>
 </body>
 
 </html>

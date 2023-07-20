@@ -41,7 +41,7 @@ header {
 }
 
 
-#mgsTopText {
+#mgs-top-text {
     font-weight: normal;
     color: white;
     font-size: 1.2em;
@@ -57,12 +57,48 @@ header {
     width: 200px;
 }
 
-.containerSliders {
+.content {
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide img {
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    max-width: 90vw;
+    margin: 10px;
+    transition: .6s;
+}
+
+/* .sliders:checked {
+    background-color: white;
+} */
+
+.navigation {
     display: flex;
     justify-content: center;
 }
 
-.sliders {
-    border: 1px solid rgba(255, 255, 255, 0.253);
-    max-width: 90vw;
+.manual-btn {
+    background-color: gray;
+    border: none;
+    padding: 4px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 4px;
 }
+
+/* .manual-btn:active  {
+    background-color: white;
+    border: none;
+    transition: 0s;
+} */

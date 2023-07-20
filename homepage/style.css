@@ -61,22 +61,31 @@ header {
     overflow: hidden;
 }
 
-.slides {
+.slides input {
+    display: none;
+}
+
+.slide-img {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
 }
 
-.slides input {
-    display: none;
-}
-
-.slide img {
+.slide-img img {
     border: 1px solid rgba(255, 255, 255, 0.253);
     max-width: 90vw;
     margin: 10px;
     transition: .6s;
+    justify-content: center;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;   
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;   
 }
 
 /* .sliders:checked {
@@ -97,8 +106,8 @@ header {
     margin: 4px;
 }
 
-/* .manual-btn:active  {
+.manual-btn:active  {
     background-color: white;
     border: none;
     transition: 0s;
-} */
+}

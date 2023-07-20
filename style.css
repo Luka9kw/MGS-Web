@@ -111,3 +111,12 @@ header {
     border: none;
     transition: 0s;
 }
+
+
+.control-buttons {
+    position: absolute;
+}
+
+button {
+
+}

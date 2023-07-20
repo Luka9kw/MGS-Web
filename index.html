@@ -37,42 +37,87 @@
 			<input type="radio" name="slide" id="slide2">
 
 			<!--Slide Images-->
-			<div class="slide-img">
+			<!-- <div class="slide-img">
 				<img src="assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
 				<img src="assets/img/slider/mgs collection.jpg" alt="Metal Gear Solid Collection Vol. 1"
 					class="current-item">
 				<img src="assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
-
+				<img src="assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
+				<img src="assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
 
 				<div class="control-buttons">
-					<div class="right-btn-position">
+					<!-- <div class="right-btn-position">
 						<div class="slider-prev">
 							<div class="btn-inner">
 								<div class="icon"></div>
 							</div>
 						</div>
+					</div> -->
+					<!-- <div class="swiper-button-prev">
+
 					</div>
 					<div class="left-btn-position">
-						<div class="slider-next">
+						<div class="swiper-button-next">
+						</div> -->
+						<!-- <div class="slider-next">
 							<div class="btn-inner">
 								<div class="icon"></div>
 							</div>
-						</div>
-					</div>
+						</div> -->
+					<!-- </div>
 				</div>
-			</div>
+			</div> -->
 
 
 
 			<!--Label-->
-			<div class="navigation">
-				<label for="slide1" class="manual-btn"></label>
-				<label for="slide2" class="manual-btn"></label>
-			</div>
+
 
 		</div>
-		<script src="script.js"></script>
+
+		<!-- Slider main container -->
+	<div class="swiper">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+		<!-- Slides -->
+			<div class="swiper-slide slide-img">
+				<img src="assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
+			</div>
+
+			<div class="swiper-slide slide-img">
+				<img src="assets/img/slider/mgs collection.jpg" alt="Metal Gear Solid Collection Vol. 1" >
+			</div>
+
+			<div class="swiper-slide slide-img">
+				<img src="assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
+			</div>
+
+			<div class="swiper-slide slide-img">
+				<img src="assets/img/slider/mgs collection.jpg" alt="Metal Gear Solid Collection Vol. 1" >
+			</div>
+
+			<div class="swiper-slide slide-img">
+				<img src="assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
+			</div>
+			
+			<div class="swiper-slide slide-img">
+				<img src="assets/img/slider/mgs collection.jpg" alt="Metal Gear Solid Collection Vol. 1" >
+			</div>
+		</div> 
+
+			<div class="swiper-pagination navigation">
+				<label class="manual-btn swiper-pagination-bullet swiper-pagination-bullet-active"></label>
+				<label class="manual-btn"></label>
+			</div>
+			<!-- If we need navigation buttons -->
+			<div class="swiper-button-prev slider-controll-wrapper"></div>
+			<div class="swiper-button-next slider-controll-wrapper"></div>
+  
+		<!-- If we need scrollbar -->
+		<div class="swiper-scrollbar"></div>
+  </div>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script src="script.js"></script>
 </body>
 
 </html>

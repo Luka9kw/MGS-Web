@@ -74,7 +74,7 @@ header {
 
 .slide-img img {
     border: 1px solid rgba(255, 255, 255, 0.253);
-    max-width: 90vw;
+    max-width: 85vw;
     margin: 10px;
     transition: .6s;
     justify-content: center;
@@ -113,10 +113,43 @@ header {
 }
 
 
-.control-buttons {
+
+
+.slider-prev {
     position: absolute;
+    left: 0;
+    top: 35%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+
 }
 
-button {
+.slider-next {
+    position: absolute;
+    right: 0;
+    top: 35%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+    transform: scaleX(-1);
+}
 
+.btn-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    border-top: 3px #000 solid;
+    border-left: 3px #000 solid;
+    transform: translateX(-30%) translateY(-50%) rotate(-45deg);
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }

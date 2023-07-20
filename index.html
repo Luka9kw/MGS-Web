@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>METAL GEAR PORTAL SITE</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="shortcut icon" href="/assets/img/favicon/mgs.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/img/favicon/mgs.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
@@ -43,27 +43,39 @@
 					class="current-item">
 				<img src="/assets/img/slider/mgs delta.jpg" alt="Metal Gear Solid Delta">
 
+
 				<div class="control-buttons">
-					<button class="arrow-left" aria-label="Previous">
-						<img src="/assets/img/slider/seta.svg" alt="" srcset="">
-					</button>
-					<button class="arrow-right" aria-label="Next">
-						<img src="/assets/img/slider/seta.svg" alt="" srcset=""> </button>
+					<div class="right-btn-position">
+						<div class="slider-prev">
+							<div class="btn-inner">
+								<div class="icon"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="control-buttons">
+					<div class="left-btn-position">
+						<div class="slider-next">
+							<div class="btn-inner">
+								<div class="icon"></div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+
+
+
+			<!--Label-->
+			<div class="navigation">
+				<label for="slide1" class="manual-btn"></label>
+				<label for="slide2" class="manual-btn"></label>
+			</div>
+
 		</div>
-
-
-
-		<!--Label-->
-		<div class="navigation">
-			<label for="slide1" class="manual-btn"></label>
-			<label for="slide2" class="manual-btn"></label>
-		</div>
-
-	</div>
-	<script src="script.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script src="script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 
 </html>
